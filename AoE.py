@@ -14,7 +14,7 @@ def localTzname():
 
 '''
 Expects an RFC 3339 date string. E.g., on Linux:
-$ ./AoE.py "`date --rfc-email`"
+$ python3 ./AoE.py "2024-08-19 23:59:59"
 '''
 
 locale.setlocale(locale.LC_ALL, "")
