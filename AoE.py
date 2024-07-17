@@ -21,12 +21,12 @@ locale.setlocale(locale.LC_ALL, "")
 
 if len(sys.argv) != 2:
   print("{}\n{}\n{}\n{}\n{}\n{}".format(
-      "Error:",
-      "  AoE.py expects one command-line argument as a date string.",
-      "Usage:",
-      "  $ python3 ./AoE.py \"2024-08-19 23:59:59\"",
-      "  Anywhere on Earth: 2024-08-19 23:59:59-12:00",
-      "  System's Timezone: 2024-08-20 13:59:59+02:00"))
+    "Error:",
+    "  AoE.py expects one command-line argument as a date string.",
+    "Usage:",
+    "  $ python3 ./AoE.py \"2024-08-19 23:59:59\"",
+    "  Anywhere on Earth: 2024-08-19 23:59:59-12:00",
+    "  System's Timezone: 2024-08-20 13:59:59+02:00"))
   sys.exit(1)
 
 # For example:
